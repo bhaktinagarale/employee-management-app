@@ -1,0 +1,23 @@
+# Node modules - this directory contains all installed packages and is generated during the build process
+node_modules/
+
+# Credentials - this contains sensitive information (e.g., API keys)
+credentials/
+
+# Environment variables - any env files holding sensitive information
+.env
+
+# Log files
+*.log
+logs/
+
+# OS or editor-specific files
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Coverage reports and other temporary build artifacts
+coverage/
+dist/
